@@ -144,7 +144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27643587}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.004747815, y: 7.04, z: 0}
+  m_LocalPosition: {x: 0.004747815, y: 4.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -183,9 +183,10 @@ MonoBehaviour:
   bulletPrefab: {fileID: 3515700336478450377, guid: 5fe26c909448d440497d49dce01b73b5,
     type: 3}
   bulletShootPoint: {fileID: 1365904572}
-  turnAngle: 5
+  turnAngle: 200
   yBullterForce: 10
   bulletTtl: 10
+  currentRotation: 1
 --- !u!212 &129763792
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -345,7 +346,7 @@ GameObject:
   - component: {fileID: 522241064}
   m_Layer: 0
   m_Name: Base (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -451,7 +452,7 @@ GameObject:
   - component: {fileID: 1169673237}
   m_Layer: 0
   m_Name: Base
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -508,7 +509,7 @@ GameObject:
   - component: {fileID: 1342719164}
   m_Layer: 0
   m_Name: Base (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -655,7 +656,7 @@ GameObject:
   - component: {fileID: 2117706717}
   m_Layer: 0
   m_Name: Base (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

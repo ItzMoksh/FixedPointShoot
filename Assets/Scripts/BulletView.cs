@@ -11,7 +11,7 @@ public class BulletView : MonoBehaviour
     private float ttl = 0f;
 
 
-    public void Init(PlayerView playerView,float ttl)
+    public void Init(PlayerView playerView, float ttl)
     {
         this.playerView = playerView;
         bulletRg = GetComponent<Rigidbody2D>();
@@ -41,7 +41,9 @@ public class BulletView : MonoBehaviour
         {
             playerView.EnemyHit(collision.gameObject.GetComponent<EnemyView>());
         }
-
-        Destroy(gameObject);
+        else if (collision.gameObject.tag == "Wall")
+        {
+        }
+        Destroy(gameObject);    
     }
 }
